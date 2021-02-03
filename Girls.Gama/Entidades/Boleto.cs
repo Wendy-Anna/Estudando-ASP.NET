@@ -2,45 +2,55 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SistemaDePagamento_Aula2_GamaAcademy.Entidades
+namespace Girls.Gama.Entidades
 {
     public class Boleto
-
     {
         private const int DiasVencimento = 15;
-        private const Decimal Juros = 0.10M;
-        public Boleto(string cpf,
-                      decimal valor, 
-                      string descricao)
+        private const double Juros = 0.10;
+
+        public Boleto(double valor, string cpf, string descricao)
         {
-            Cpf = cpf;
             Valor = valor;
-            Descricao = descricao;
+            Cpf = cpf;
             DataEmissao = DateTime.Now;
+            Descricao = descricao;
             Confirmacao = false;
         }
 
         public Guid CodigoBarra { get; set; }
-        public decimal Valor { get; set; }
+
+        public double Valor { get; set; }
+
         public DateTime DataEmissao { get; set; }
+
         public DateTime DataVencimento { get; set; }
+
         public DateTime DataPagamento { get; set; }
-        public bool Confirmacao { get; set; }
+
         public string Cpf { get; set; }
+
         public string Descricao { get; set; }
+
+        public bool Confirmacao { get; set; }
 
         public void GerarBoleto()
         {
             CodigoBarra = Guid.NewGuid();
             DataVencimento = DataEmissao.AddDays(DiasVencimento);
         }
-        
-        public bool BoletoEstaPago()
+
+        public bool EstaPago()
         {
             return Confirmacao;
         }
 
-        public void calcularJuros()
+        public bool EstaVencido()
+        {
+            return DataVencimento < DateTime.Now;
+        }
+
+        public void CalcularJuros()
         {
             var taxa = Valor * Juros;
             Valor += taxa;
