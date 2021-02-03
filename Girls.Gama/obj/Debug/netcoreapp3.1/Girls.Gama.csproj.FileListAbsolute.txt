@@ -1,0 +1,13 @@
+C:\Users\jr-al\Desktop\Gama\Girls.Gama\Girls.Gama\obj\Debug\netcoreapp3.1\Girls.Gama.csprojAssemblyReference.cache
+C:\Users\jr-al\Desktop\Gama\Girls.Gama\Girls.Gama\obj\Debug\netcoreapp3.1\Girls.Gama.AssemblyInfoInputs.cache
+C:\Users\jr-al\Desktop\Gama\Girls.Gama\Girls.Gama\obj\Debug\netcoreapp3.1\Girls.Gama.AssemblyInfo.cs
+C:\Users\jr-al\Desktop\Gama\Girls.Gama\Girls.Gama\obj\Debug\netcoreapp3.1\Girls.Gama.csproj.CoreCompileInputs.cache
+C:\Users\jr-al\Desktop\Gama\Girls.Gama\Girls.Gama\bin\Debug\netcoreapp3.1\Girls.Gama.exe
+C:\Users\jr-al\Desktop\Gama\Girls.Gama\Girls.Gama\bin\Debug\netcoreapp3.1\Girls.Gama.deps.json
+C:\Users\jr-al\Desktop\Gama\Girls.Gama\Girls.Gama\bin\Debug\netcoreapp3.1\Girls.Gama.runtimeconfig.json
+C:\Users\jr-al\Desktop\Gama\Girls.Gama\Girls.Gama\bin\Debug\netcoreapp3.1\Girls.Gama.runtimeconfig.dev.json
+C:\Users\jr-al\Desktop\Gama\Girls.Gama\Girls.Gama\bin\Debug\netcoreapp3.1\Girls.Gama.dll
+C:\Users\jr-al\Desktop\Gama\Girls.Gama\Girls.Gama\bin\Debug\netcoreapp3.1\Girls.Gama.pdb
+C:\Users\jr-al\Desktop\Gama\Girls.Gama\Girls.Gama\obj\Debug\netcoreapp3.1\Girls.Gama.dll
+C:\Users\jr-al\Desktop\Gama\Girls.Gama\Girls.Gama\obj\Debug\netcoreapp3.1\Girls.Gama.pdb
+C:\Users\jr-al\Desktop\Gama\Girls.Gama\Girls.Gama\obj\Debug\netcoreapp3.1\Girls.Gama.genruntimeconfig.cache
